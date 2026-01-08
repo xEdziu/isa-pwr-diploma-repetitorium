@@ -1,4 +1,5 @@
 # ISA PWr Diploma Repetitorium
+
 > Materials collected and created by ISA 2022-2026 bachelor's degree.
 
 ## Pytania na egzamin dyplomowy - [źródło](https://wit.pwr.edu.pl/fcp/sGBUKOQtTKlQhbx08SlkTUg1CUWRuHQwFDBoIVURNWH5aAFhnRlUuWTISTnoYDxMe/190/public/studenci/dyplomowanie/pytania_egzamin/i_stopien/2022/informatyczne_systemy_automatyki_2022_2023.pdf)
@@ -6,17 +7,17 @@
 ### Pytania ogólnokierunkowe
 
 1. Opisy obiektów dynamicznych, sterowanie adaptacyjne i wielopoziomowe
-2. Zaawansowane struktury danych i algorytmy ich obsługi
+2. [Zaawansowane struktury danych i algorytmy ich obsługi](general-questions/struktury-danych/README.md)
 3. Algorytmy optymalizacji i ich zastosowania
 4. Zastosowanie sztucznej inteligencji i metod uczenia maszynowego w robotach inteligentnych
 5. Metody numeryczne w obliczeniach inżynierskich
 6. Cyfrowe przetwarzanie obrazów i sygnałów
 7. Architektura mikrokontrolerów
 8. [Systemy operacyjne – przegląd, struktury i zadania](general-questions/systemy-operacyjne/README.md)
-9. Zasady projektowania algorytmów
+9. [Zasady projektowania algorytmów](general-questions/projektowanie-i-analiza-algorytmow/README.md)
 10. Sieci komputerowe – przegląd, struktury i zastosowania
 
-###  Komputerowe Systemy Sterowania (IKA)
+### Komputerowe Systemy Sterowania (IKA)
 
 1. Układy regulacji - algorytmy, projektowanie i ocena jakości
 2. Architektura systemów IoT i ich elementy składowe
@@ -24,13 +25,13 @@
 4. Bezprzewodowe i przewodowe protokoły komunikacyjne w przemyśle i automatyce domowej
 5. BMS – zastosowanie i zadania jakie realizuje w automatyce budynkowej
 6. Systemy rozproszone i centralnie sterowane w automatyce budynkowej. Zalety i wady
-poszczególnych rozwiązań.
+   poszczególnych rozwiązań.
 7. Protokoły transmisji danych w systemach mikroprocesorowych
 8. Analiza porównawcza metod kaskadowych oraz zwinnych w prowadzeniu projektów IT
 9. Podstawowe własności oraz funkcje systemów akwizycji i prezentacji danych oraz systemów DCS
 10. Cykl życia projektu integracji przemysłowych systemów automatyki
 
-###  Inteligentne Systemy Przemysłu 4.0 (IPS)
+### Inteligentne Systemy Przemysłu 4.0 (IPS)
 
 1. Zadania i programowanie maszyn CNC.
 2. Systemy wizyjne - charakterystyka i zastosowania.
@@ -43,7 +44,7 @@ poszczególnych rozwiązań.
 9. Protokoły transmisji cyfrowej w przemyśle 4.0.
 10. Metody projektowania algorytmów równoległych.
 
-###  Zastosowania Inżynierii Komputerowej (IZI)
+### Zastosowania Inżynierii Komputerowej (IZI)
 
 1. Opisy i modele systemów cyber-fizycznych
 2. IoT - protokoły i standardy wymiany danych
@@ -56,7 +57,7 @@ poszczególnych rozwiązań.
 9. Programowanie aplikacji i usług internetowych
 10. Algorytmy szyfrowania informacji
 
-###  Zastosowania Technologii Informacyjnych (IZT)
+### Zastosowania Technologii Informacyjnych (IZT)
 
 1. Projektowanie, rodzaje i algorytmy uczenia sieci neuronowych
 2. Internet rzeczy – usługi i aplikacje
