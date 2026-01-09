@@ -60,8 +60,6 @@ Jest to oprogramowanie pośredniczące między użytkownikiem a systemem operacy
 
 W wąskim znaczeniu powłoka to interpreter komend.
 
-Oto szczegółowe omówienie zagadnień dotyczących **Systemu plików** oraz **Pozostałego oprogramowania systemowego**, opracowane bezpośrednio na podstawie treści i fragmentów przesłanej prezentacji.
-
 #### C. System Plików
 
 **Definicja i rola:**
