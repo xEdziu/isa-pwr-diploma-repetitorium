@@ -384,6 +384,15 @@ Co jest lepsze, drzewa AVL czy czerwono-czarne? To zależy.
 
 Wybieramy dogodną opcję na podstawie tego jakich operacji spodziewamy się używać częściej.
 
-Tablice mieszające
+Tablice mieszające (hash table) - struktura danych służąca do implementacji słownika, gdzie za pomocą funkcji mieszającej klucz jest zamieniany na indeks w tablicy.
 
-## 5. Grafy
+Powszechnie wykorzystywana prosta funkcja to h(x) = x mod m, gdzie m to rozmiar tablicy mieszającej.
+
+Powszechnym problem jest problem klasteryzacji - klasteryzacja to zjawisko, gdzie więcej niż jeden klucz otrzyma ten sam indeks. Idealna funkcja mieszająca będzie różnowartościowa, ale zazwyczaj ciężko jest taką znaleźć bez bardzo dużego nakładu pamięciowego. W związku z tym, istnieją sposoby radzenia sobie z klasteryzacją:
+
+- separate chaining (metoda łańcuchowa) - każdy indeks jest "kubełkiem" (implementowane przez liste, bądź drzewo), do którego wchodzą wszystkie elementy, które otrzymały ten indeks; w przypadku wyszukiwania elementu w słowniku należy przejrzeć cały kubełek, co pozbawia tą operację złożoności stałej
+  - 2-choice hashing - modyfikacja separate chaining, w której istnieją dwie funkcje mieszające i wybierany jest indeks z mniejszą zajętością
+- open addressing (adresowanie otwarte) - każdy "kubełek" przechowuje max 1 element; gdy dla aktualnie dodawanego elementu indeks okaże się zajęty, to poprzedni element zmienia miejsce, co dokonywane jest np. przez linear probing i quadratic probing (przeskok o liniowo/kwadratowo zwiększającą się liczbę elementów); również pozbawia operację wyszukiwania złożoności stałej
+  - cuckoo hashing (haszowanie kukułcze) - odmiana open addressingu, w której istnieją dwie tablice T_1 i T_2, a każda z nich ma osobną funkcję hashującą; element ma lokalizacje podstawową (w T_1) i alterantywną (w T_2), jeśli jego miejsce w T_1 jest już zajęte, to dotychczasowo znajdujący się tam element zmienia swoją lokalizację na drugą z możliwych; daje to złożoność stałą dla wyszukiwania, ale możliwe jest wystąpienie cykli
+
+Ważnym parametrem jest **Load factor** czyli współczynnik zajętości tablicy, definiowany jako n/m, gdzie n to liczba elementów, a m to rozmiar tablicy. Jest wykorzystywany do wyznaczania momentu zwiększenia (bądź zmniejszenia) wielkości tablicy, co zachodzi dla różnych wielkości load factor dla różnych rodzajów tablic mieszających.
