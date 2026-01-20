@@ -35,7 +35,7 @@
 
 1. [Zadania i programowanie maszyn CNC.](/ips/cnc/README.md)
 2. Systemy wizyjne - charakterystyka i zastosowania.
-3. Zastosowania i cechy systemów wbudowanych.
+3. [Zastosowania i cechy systemów wbudowanych](ips/zastosowania-i-cechy-systemow-wbudowanych/README.md)
 4. [Nowoczesne platformy mobilne.](/ips/nowoczesne-platformy-mobilne/README.md)
 5. [Narzędzia i techniki programowania oraz udostępniania aplikacji mobilnych.](/ips/programowanie-udostepnianie-mobilek/README.md)
 6. [Cechy wspólne i różnice platform programistycznych .Net i Java. Obiektowość w językach Java i C#](ips/dotnet-java/README.md)
