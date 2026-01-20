@@ -1,3 +1,6 @@
+<img width="1354" height="1017" alt="image" src="https://github.com/user-attachments/assets/b42bfc9d-5409-48b8-9455-dac5368a1752" />
+
+
 ### 1. Definicja problemu, algorytmu oraz abstrakcyjnego typu danych
 
 ### 2. Pseudokod złożoność obliczeniowa

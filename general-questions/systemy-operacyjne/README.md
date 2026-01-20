@@ -1,4 +1,5 @@
-<img width="873" height="659" alt="image" src="https://github.com/user-attachments/assets/0ead7100-2737-4afe-ad47-a3dba3662c83" />
+<img width="1358" height="1015" alt="image" src="https://github.com/user-attachments/assets/f8a07d04-3d89-4e2d-8ff5-9939776c39b7" />
+
 
 ### 1. Przegląd i definicja Systemu Operacyjnego
 

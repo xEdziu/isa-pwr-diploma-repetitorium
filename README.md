@@ -8,10 +8,10 @@
 
 1. [Opisy obiektów dynamicznych, sterowanie adaptacyjne i wielopoziomowe](general-questions/opisy-obiektów-dynamicznych,-sterowanie-adaptacyjne-i-wielopoziomowe/README.md)
 2. [Zaawansowane struktury danych i algorytmy ich obsługi](general-questions/struktury-danych/README.md)
-3. Algorytmy optymalizacji i ich zastosowania
+3. [Algorytmy optymalizacji i ich zastosowania](general-questions/optymalizacja/README.md)
 4. [Zastosowanie sztucznej inteligencji i metod uczenia maszynowego w robotach inteligentnych](general-questions/zastosowanie-AI-i-ML-w-robotach-inteligentnych/README.md)
 5. [Metody numeryczne w obliczeniach inżynierskich](general-questions/metody-numeryczne/README.md)
-6. Cyfrowe przetwarzanie obrazów i sygnałów
+6. [Cyfrowe przetwarzanie obrazów i sygnałów](general-questions/SiOC/README.md)
 7. [Architektura mikrokontrolerów](general-questions/architektura-mikrokontrolerow/README.md)
 8. [Systemy operacyjne – przegląd, struktury i zadania](general-questions/systemy-operacyjne/README.md)
 9. [Zasady projektowania algorytmów](general-questions/projektowanie-i-analiza-algorytmow/README.md)
@@ -39,7 +39,7 @@
 4. Nowoczesne platformy mobilne.
 5. Narzędzia i techniki programowania oraz udostępniania aplikacji mobilnych.
 6. [Cechy wspólne i różnice platform programistycznych .Net i Java. Obiektowość w językach Java i C#](ips/dotnet-java/README.md)
-7. Metody i algorytmy sztucznej inteligencji.
+7. [Metody i algorytmy sztucznej inteligencji.](ips/metody-i-algorytmy-AI/README.md)
 8. Metody rozwiązywania zadań optymalizacji.
 9. [Protokoły transmisji cyfrowej w przemyśle 4.0.](ips/przemysl-4.0/README.md)
 10. Metody projektowania algorytmów równoległych.
