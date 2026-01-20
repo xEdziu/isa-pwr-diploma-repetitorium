@@ -49,21 +49,22 @@
   * **Transfer learning:** douczanie ostatnich warstw wytrenowanej sieci innymi danymi
 
   ### 2. Rodzaje:
-  * **Perceptron**
-  * **MLP (Percepteron wielowarstwowy)**
-  * **CNN (Konwolucyjne sieci neuronowe)**
-  * **RNN (Rekurencyjne sieci neuronowe)**
+  * **Perceptron** najprostszy rodzaj sztucznego neuronu, binarny klasyfikator
+  * **MLP (Percepteron wielowarstwowy)** wiele neuronów, warstwa wejściowa i wyjściowa, warstwa ukryta. Umie robić rzeczy nieliniowe.
+  * **CNN (Konwolucyjne sieci neuronowe)** do obraxzów, filtry splotowe, pooling zmniejsza rozmiar danych.
+  * **RNN (Rekurencyjne sieci neuronowe)** do danych sekwencyjnych, sprzężenie zwrotne daje informację z przeszłości.
 ---
   * **Transformery**
+  DODATKOWE: Używane w LLM, mechanizm uwagi.
 ---
 ## 4. Metryki jakości:
-* **Dokładność (Accurancy):**
-* **Precyzja (Precision):**
-* **Czułość (Recall):**
-* **F1-Score:**
-* **MSE (błąd średniokwadratowy):**
-* **MAE (Średni błąd bezwzględny):**
-* **Macierz pomyłek:**
+* **Dokładność (Accurancy):** Ogólny procent poprawnych trafień modelu.
+* **Precyzja (Precision):** Wiarygodność wskazań – ile z oznaczonych jako "pozytywne" faktycznie nimi było
+* **Czułość (Recall):** Skuteczność wykrywania – ile z faktycznie istniejących przypadków model zdołał wyłapać
+* **F1-Score:** średnia między precyzją a czułością; przydatny przy nierównych klasach
+* **MSE (błąd średniokwadratowy):** Średnia kwadratów błędów, bardzo surowo karze duże pomyłki.
+* **MAE (Średni błąd bezwzględny):** Średnia różnica między wynikiem a prawdą, mówi, o ile średnio myli się model.
+* **Macierz pomyłek:** tabela pokazująca co z czym pomylił model (TP, TN, FP, FN).
 
 
 
