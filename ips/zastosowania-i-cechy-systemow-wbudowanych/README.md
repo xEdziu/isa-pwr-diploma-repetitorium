@@ -19,7 +19,7 @@
 
 
 ## 3. Zastosowania systemów wbudowanych
-* motoryzacja (sterownik silnika ECU)
+* motoryzacja (sterownik silnika (ECU-engine control unit))
 * elektronika domowa (intelignte pralki itp.)
 * automatyka przemysłowa (linie produkcyjne, roboty)
 * telekomunikacja (modem, router)
