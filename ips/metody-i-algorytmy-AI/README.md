@@ -18,19 +18,21 @@
       * **Regresja:** przewiduje wartość liczbową z jakiegoś zakresu. Np. przewidywanie cen mieszkań. Przykład: regresja liniowa lub wielomianowa.
   * **Uczenie nienadzorowane:** algorytm sam wykrywa ukryte wzorce w nieetykietowanych danych, najczęściej klaseryzuje, redukuje wymiarowość lub wykrywa anomalie.
     ### Przykłady:
-      * **Klasteryzacja:** 
-      * **Redukcja wymiarowości**
-      * **Wykrywanie anomalii:**
+      * **Klasteryzacja:** Grupowanie podobnych obiektów.
+        * **K-średnich (K-Means):** Algorytm dzieli dane na k grup. Przypisuje punkty do najbliższego centroidu, a następnie aktualizuje pozycję centroidu jako średnią ze wszystkich punktów w grupie. Proces trwa do momentu stabilizacji.
+        * **DBSCAN:** grupuje punkty znajdujące się blisko siebie, tworząc klastry o dowolnych kształtach. Jego unikalną cechą jest zdolność do automatycznego identyfikowania i odizolowywania punktów o niskim zagęszczeniu jako szumu
+      * **Redukcja wymiarowości** Zmniejszanie liczby cech przy zachowaniu kluczowych informacji. Dwa sposoby: selekcja cech (wybranie najlepszych cech i usunięcie reszty), ekstrakcja cech (tworzenie nowych sztucznych zmiennych z kombinacji starych)
+      * **Wykrywanie anomalii:**Identyfikacja wzorców odbiegających od normy
  
   * **Uczenie półnadzorowane:** algorytm wykorzystuje obydwa powyższe sposoby, mała ilość danych poetykietowanych, duża niepoetykietowanych. Najczęściej propagacja etykiet lub self-trainingu.
     ### Przykłady:
-      * **Propagacja etykiet:**
-      * **Self-training:**
+      * **Propagacja etykiet:** bierzemy poetykietowane dane i szukamy danych podobnych do nich i przypisujemy te same etykiety.
+      * **Self-training:** Trenujesz model na małej ilości danych etykietowanych (np. 100), wytrenowana sieć etykietuje dane niepoetykietowane, te co mają np. >0.97 prawdopodobieństwa etykiet to używamy ich i tych starych poetykietowanych do ponownego treningu.
   
   * **Uczenie ze wzmocnieniem:** algorytm uczy się w systemie kar i nagród maksymalizując łączną nagrodę w dłuższym czasie. Często używane w grach lub robotyce.
     ### Przykłady:
-      * **Gry:**
-      * **Robotyka:** 
+      * **Gry:** np. szachy, algorytm np. Q-learning (Q==quality). Algorytm uczy się metodą prób i błędów. Dobre ruch nagradzane, złe karane. Wyniki zapisywane w tabelce, algorytm nie popełnia tych samych błędów. DQN (Deep Q-Network): zamiast tabelki sieć neuronowa
+      * **Robotyka:** używane do np. uczenia manipulatora podnoszenia przedmiotów albo do systemów sterowania
 
 
 
