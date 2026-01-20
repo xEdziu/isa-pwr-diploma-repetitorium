@@ -32,23 +32,21 @@
   * **Uczenie ze wzmocnieniem:** algorytm uczy się w systemie kar i nagród maksymalizując łączną nagrodę w dłuższym czasie. Często używane w grach lub robotyce.
     ### Przykłady:
       * **Gry:** np. szachy, algorytm np. Q-learning (Q==quality). Algorytm uczy się metodą prób i błędów. Dobre ruch nagradzane, złe karane. Wyniki zapisywane w tabelce, algorytm nie popełnia tych samych błędów. DQN (Deep Q-Network): zamiast tabelki sieć neuronowa
-      * **Robotyka:** używane do np. uczenia manipulatora podnoszenia przedmiotów albo do systemów sterowania
-
-
+      * **Robotyka:** używane do np. uczenia manipulatora podnoszenia przedmiotów albo do systemów sterowania robotem.
 
 ## 3. ANN (Sztuczne sieci neuronowe)
   ### 1. Ważne pojęcia:
-  * **Wagi:**
-  * **Bias:**
-  * **Funkcja aktywacji:**
-  * **Warstwy:**
-  * **Funkcja straty:**
-  * **Wsteczna propagacja:**
-  * **Optymalizator**
-  * **Epoka:**
-  * **Batch:**
-  * **Over/under fitting (Przeuczenie/niedouczenie):**
-  * **Transfer learning:**
+  * **Wagi:** Parametry liczbowe określające siłę połączenia między neuronami
+  * **Bias:** Przesunięcie funkcji aktywacji
+  * **Funkcja aktywacji:** oblicza sygnał wyjściowy neuronu z wagi i biasu. Dodaje nieliniowość. Najpopularniejsze funkcje aktywacji: Sigmoid (0,1), Tanh (-1,1),Softmax(prawdopodobieństwo np. 0.3, 0.2, 0.5), ReLU (0,x)
+  * **Warstwy:** poziomy sieci z neuronami przetwarzające informacje
+  * **Funkcja straty:** ocenia jak bardzo sieć neuronowa się pomyliła np. Cross-entropy dla klasyfikacji (każe mocno za duży błąd, słabo za mały)
+  * **Wsteczna propagacja:** mechanizm uczenia sieci, informuje od końca do początku, które wagi są do zmiany przy pomocy gradientu.
+  * **Optymalizator** Optymalizuje w jaki sposób zmienić wagę, przykłady SGD, SGD Momentum RMSprop, Adam.
+  * **Epoka:** Pełny cykl treningowy ze wszystkimi danymi
+  * **Batch:** liczba danych na jedna iteracje treningu
+  * **Over/under fitting (Przeuczenie/niedouczenie):** Przeuczony model nie generalizuje, uczy się na pamięć, niedouczony zgaduje odpowiedzi nawet treningowe.
+  * **Transfer learning:** douczanie ostatnich warstw wytrenowanej sieci innymi danymi
 
   ### 2. Rodzaje:
   * **Perceptron**
