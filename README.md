@@ -34,7 +34,7 @@
 ### Inteligentne Systemy Przemysłu 4.0 (IPS)
 
 1. [Zadania i programowanie maszyn CNC.](/ips/cnc/README.md)
-2. Systemy wizyjne - charakterystyka i zastosowania.
+2. [Systemy wizyjne - charakterystyka i zastosowania](ips/systemy-wizyjne)
 3. [Zastosowania i cechy systemów wbudowanych](ips/zastosowania-i-cechy-systemow-wbudowanych/README.md)
 4. [Nowoczesne platformy mobilne](/ips/nowoczesne-platformy-mobilne/README.md)
 5. [Narzędzia i techniki programowania oraz udostępniania aplikacji mobilnych](/ips/programowanie-udostepnianie-mobilek/README.md)
