@@ -22,7 +22,7 @@
         * **K-średnich (K-Means):** Algorytm dzieli dane na k grup. Przypisuje punkty do najbliższego centroidu, a następnie aktualizuje pozycję centroidu jako średnią ze wszystkich punktów w grupie. Proces trwa do momentu stabilizacji.
         * **DBSCAN:** grupuje punkty znajdujące się blisko siebie, tworząc klastry o dowolnych kształtach. Jego unikalną cechą jest zdolność do automatycznego identyfikowania i odizolowywania punktów o niskim zagęszczeniu jako szumu
       * **Redukcja wymiarowości** Zmniejszanie liczby cech przy zachowaniu kluczowych informacji. Dwa sposoby: selekcja cech (wybranie najlepszych cech i usunięcie reszty), ekstrakcja cech (tworzenie nowych sztucznych zmiennych z kombinacji starych)
-      * **Wykrywanie anomalii:**Identyfikacja wzorców odbiegających od normy
+      * **Wykrywanie anomalii:** Identyfikacja wzorców odbiegających od normy
  
   * **Uczenie półnadzorowane:** algorytm wykorzystuje obydwa powyższe sposoby, mała ilość danych poetykietowanych, duża niepoetykietowanych. Najczęściej propagacja etykiet lub self-trainingu.
     ### Przykłady:
@@ -65,6 +65,7 @@
 * **MSE (błąd średniokwadratowy):** Średnia kwadratów błędów, bardzo surowo karze duże pomyłki.
 * **MAE (Średni błąd bezwzględny):** Średnia różnica między wynikiem a prawdą, mówi, o ile średnio myli się model.
 * **Macierz pomyłek:** tabela pokazująca co z czym pomylił model (TP, TN, FP, FN).
+
 
 
 
