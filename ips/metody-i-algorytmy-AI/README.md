@@ -10,7 +10,7 @@
   * **Uczenie nadzorowane:** uczenie na podstawie poetykietowanych danych, z oczekiwanym wyjściem. Używane do klasyfikacji lub regresji.
     ### Przykłady:
       * **Klasyfikacja:** przypisanie jednej z wcześniej zdefiniowanych klas do elementu wejściowego np. określenie na obrazku czy jest pies czy kot. Przykłady algorytmu: Regresja logistyczna, k-najbliższych sąsiadów, SVM, drzewa decyzyjne i lasy losowe.
-         * **Regresja logistyczna:** przy pomocy funckji sigmoidalnej przypisuje prawdopodobieństwo, od 0 do 1, przynależności do klasy.
+         * **Regresja logistyczna:** przy pomocy funkcji sigmoidalnej przypisuje prawdopodobieństwo, od 0 do 1, przynależności do klasy.
          * **K-najbliższych sąsiadów:** określa klasę przy pomocy k najbliższych sąsiadów. Przykład dla k=5, dodajemy nowy punkt, sprawdzamy odległość tego punktu od każdego punktu, bierzemy 5 punktów z najkrótszą odległością i patrzymy jakie mają klasy punkty, przeważająca klasa wsród punktów zostaje przypisana do nowego punktu. Parametr k ma duże znaczenie, za mały (bardzo nerwowy), za duży (pomija lokalne szczegóły).
          * **SVM (Maszyna wektorów nośnych):** Algorytm szukający optymalnej hiperpłaszczyzny rozdzielającej klasy z zachowaniem maksymalnego marginesu (odstępu). W przypadku danych nieseparowalnych liniowo wykorzystuje tzw. trik jądrowy (kernel trick) do rzutowania ich do przestrzeni o wyższym wymiarze.
          * **Drzewa decyzyjne:** Algorytm oparty na metodzie if-them, algorytm szuka pytania, które najlepiej podzieli zbiór na jednorodne grupy, proces zaczyna się u korzenia i idzie do samego liścia.
@@ -65,6 +65,7 @@
 * **MSE (błąd średniokwadratowy):** Średnia kwadratów błędów, bardzo surowo karze duże pomyłki.
 * **MAE (Średni błąd bezwzględny):** Średnia różnica między wynikiem a prawdą, mówi, o ile średnio myli się model.
 * **Macierz pomyłek:** tabela pokazująca co z czym pomylił model (TP, TN, FP, FN).
+
 
 
 
