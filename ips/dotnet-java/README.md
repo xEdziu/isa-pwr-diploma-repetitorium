@@ -8,16 +8,16 @@
 ### Cechy Wspólne
 
 - **Wirtualna maszyna uruchomieniowa**
-- - `CLR` (Common Language Runtime) dla .NET
-- - `JVM` (Java Virtual Machine) dla Java
+    - `CLR` (Common Language Runtime) dla .NET
+    - `JVM` (Java Virtual Machine) dla Java
 - **Kompilacja do kodu pośredniego**
-- - `CIL` (Common Intermediate Language) dla .NET
-- - `bytecode` (czyli wynik kompilacji do pliku `.class`) dla Java
+    - `CIL` (Common Intermediate Language) dla .NET
+    - `bytecode` (czyli wynik kompilacji do pliku `.class`) dla Java
 - **Garbage Collector (GC)**
 - **JIT compiler** (Just-In-Time compilation)
 - **Multiplatformowość**
-- - Java z natury od samego początku była multiplatformowa, JVM była dostępna wszędzie
-- - .NET dopiero od niedawna jest multiplatformowy
+    - Java z natury od samego początku była multiplatformowa, JVM była dostępna wszędzie
+    - .NET dopiero od niedawna jest multiplatformowy
 
 ### Różnice
 
@@ -28,7 +28,6 @@
 #### .NET
 - wielojęzykowość (C#, F#)
 - open-source od 2016 roku
-> - integracja (nie wiem o co mogło tu chodzić idzikowskiemu, dlatego wyszarzone)
   
 
 ## Obiektowość
