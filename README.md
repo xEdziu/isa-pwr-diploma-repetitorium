@@ -42,7 +42,7 @@
 7. [Metody i algorytmy sztucznej inteligencji.](ips/metody-i-algorytmy-AI/README.md)
 8. [Metody rozwiązywania zadań optymalizacji](ips/metody-optymalizacji/README.md)
 9. [Protokoły transmisji cyfrowej w przemyśle 4.0.](ips/przemysl-4.0/README.md)
-10. [Metody projektowania algorytmów równoległych.](ips/algorytmy-rownolegle/README.md)
+10. [Metody projektowania algorytmów równoległych.](ips/metody-projektowania-algorytmow-rownoleglych/README.md)
 
 ### Zastosowania Inżynierii Komputerowej (IZI)
 
