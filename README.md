@@ -33,16 +33,16 @@
 
 ### Inteligentne Systemy Przemysłu 4.0 (IPS)
 
-1. Zadania i programowanie maszyn CNC.
-2. Systemy wizyjne - charakterystyka i zastosowania.
-3. Zastosowania i cechy systemów wbudowanych.
-4. Nowoczesne platformy mobilne.
-5. Narzędzia i techniki programowania oraz udostępniania aplikacji mobilnych.
+1. [Zadania i programowanie maszyn CNC.](/ips/cnc/README.md)
+2. [Systemy wizyjne - charakterystyka i zastosowania](ips/systemy-wizyjne)
+3. [Zastosowania i cechy systemów wbudowanych](ips/zastosowania-i-cechy-systemow-wbudowanych/README.md)
+4. [Nowoczesne platformy mobilne](/ips/nowoczesne-platformy-mobilne/README.md)
+5. [Narzędzia i techniki programowania oraz udostępniania aplikacji mobilnych](/ips/programowanie-udostepnianie-mobilek/README.md)
 6. [Cechy wspólne i różnice platform programistycznych .Net i Java. Obiektowość w językach Java i C#](ips/dotnet-java/README.md)
 7. [Metody i algorytmy sztucznej inteligencji.](ips/metody-i-algorytmy-AI/README.md)
-8. Metody rozwiązywania zadań optymalizacji.
+8. [Metody rozwiązywania zadań optymalizacji](ips/metody-optymalizacji/README.md)
 9. [Protokoły transmisji cyfrowej w przemyśle 4.0.](ips/przemysl-4.0/README.md)
-10. Metody projektowania algorytmów równoległych.
+10. [Metody projektowania algorytmów równoległych.](ips/algorytmy-rownolegle/README.md)
 
 ### Zastosowania Inżynierii Komputerowej (IZI)
 
