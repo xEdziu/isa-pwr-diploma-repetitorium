@@ -179,3 +179,176 @@ Szczególnie efektywne na:
 
 - GPU
 - systemach wielordzeniowych
+
+--- 
+# Zagadnienia uzupełniające – kontekst metod projektowania algorytmów równoległych
+
+Poniższe zagadnienia nie stanowią rdzenia metod projektowania algorytmów równoległych,
+ale są istotne jako:
+- narzędzia implementacyjne,
+- środowiska wykonawcze,
+- przykłady zastosowania metod projektowych w praktyce.
+
+---
+
+## 1. Języki programowania równoległego
+
+### Charakter zagadnienia
+- dotyczą **implementacji**, nie projektowania algorytmu
+- nie narzucają metody podziału problemu
+- realizują wcześniej zaprojektowany algorytm
+
+### Rola w projektowaniu algorytmów
+- algorytm powinien być **niezależny od języka**
+- projektowanie odbywa się:
+  - przed wyborem technologii
+  - na poziomie abstrakcyjnym (np. PRAM)
+
+### Znaczenie praktyczne
+- język wpływa na:
+  - wygodę implementacji
+  - dostępne mechanizmy synchronizacji
+  - koszty narzutów
+
+Wniosek:
+Języki programowania nie są metodą projektowania algorytmów, lecz środkiem ich realizacji.
+
+---
+
+## 2. Programowanie w klastrze – biblioteka MPI
+
+### Charakter zagadnienia
+- MPI to standard komunikacji w systemach z pamięcią rozproszoną
+- programista jawnie:
+  - przesyła dane
+  - synchronizuje procesy
+
+### Związek z metodami projektowania
+- wymusza:
+  - dekompozycję danych
+  - minimalizację komunikacji
+- silnie eksponuje koszty przesyłania danych
+
+### Znaczenie dla projektowania
+- algorytmy projektowane dla pamięci rozproszonej:
+  - muszą redukować liczbę komunikatów
+  - muszą dobrze dzielić dane
+
+MPI nie definiuje metody algorytmicznej, ale **ujawnia konsekwencje złego projektu algorytmu**.
+
+---
+
+## 3. Programowanie urządzeń GPU – CUDA
+
+### Charakter zagadnienia
+- CUDA to platforma programistyczna dla GPU
+- oparta na modelu SIMT
+
+### Związek z projektowaniem algorytmów
+- wymusza:
+  - bardzo drobnoziarnisty podział problemu
+  - regularny dostęp do danych
+- nie każdy algorytm da się efektywnie zrównoleglić na GPU
+
+### Ograniczenia projektowe
+- koszt transferu danych CPU ↔ GPU
+- problem rozbieżności wątków (branch divergence)
+
+CUDA nie jest metodą projektowania algorytmu, lecz **specyficznym środowiskiem wykonawczym**, które wpływa na sposób implementacji.
+
+---
+
+## 4. Programowanie MIC – OpenMP
+
+### Charakter zagadnienia
+- OpenMP to model programowania dla pamięci współdzielonej
+- opiera się na dyrektywach (pragma)
+
+### Związek z projektowaniem
+- umożliwia szybkie:
+  - równoleglenie pętli
+  - eksperymenty z liczbą wątków
+- nie zmusza do zmiany struktury algorytmu
+
+### Ograniczenia
+- łatwo uzyskać:
+  - niską efektywność
+  - wąskie gardła
+- nadmierna synchronizacja obniża skalowalność
+
+OpenMP realizuje algorytmy współbieżne i równoległe, ale **nie definiuje metod ich projektowania**.
+
+---
+
+## 5. Wybrane algorytmy równoległe – metaheurystyki
+
+### Charakter zagadnienia
+- algorytmy przybliżone
+- stosowane do problemów NP-trudnych
+
+### Równoleglenie metaheurystyk
+- równoległa:
+  - ewaluacja rozwiązań
+  - przegląd sąsiedztwa
+  - operacje na populacji
+
+### Związek z metodami projektowania
+- wykorzystują klasyczne techniki:
+  - dekompozycję zadań
+  - brak zależności danych
+- są przykładem zastosowania metod, a nie ich źródłem
+
+Metaheurystyki ilustrują użycie metod projektowania, ale same nimi nie są.
+
+---
+
+## 6. Równoległy i rozproszony algorytm tabu search oraz symulowanego wyżarzania
+
+### Charakter zagadnienia
+- algorytmy lokalnego przeszukiwania
+- silnie sekwencyjne w swojej naturze
+
+### Możliwości równoleglenia
+- równoległa analiza sąsiedztwa
+- równoległa ewaluacja funkcji celu
+- wersje wyspowe (rozproszone)
+
+### Ograniczenia projektowe
+- zależności między iteracjami
+- ograniczona skalowalność
+
+Algorytmy te pokazują **granice zwrównoleglania**, co jest istotne koncepcyjnie.
+
+---
+
+## 7. Równoległe algorytmy genetyczne i poszukiwanie rozproszone
+
+### Charakter zagadnienia
+- algorytmy populacyjne
+- naturalnie podatne na równoleglenie
+
+### Modele równoległe
+- model master–slave
+- model wyspowy
+- model globalnej populacji
+
+### Związek z projektowaniem algorytmów
+- dobre przykłady:
+  - dekompozycji danych
+  - ograniczania synchronizacji
+- jednak silnie dziedzinowe
+
+Algorytmy genetyczne są **zastosowaniem metod projektowania algorytmów równoległych**, a nie ich fundamentem.
+
+---
+
+## Wniosek ogólny
+
+Powyższe zagadnienia:
+- nie definiują metod projektowania algorytmów równoległych,
+- ale pokazują:
+  - konsekwencje decyzji projektowych,
+  - ograniczenia sprzętowe i programistyczne,
+  - praktyczne zastosowania teorii.
+
+Stanowią ważne uzupełnienie wiedzy, szczególnie na poziomie implementacji.
