@@ -1,3 +1,5 @@
+<img width="1024" height="768" alt="CNC" src="https://github.com/user-attachments/assets/fd454725-22a1-44b5-933a-cb60565f1622" />
+
 # Wprowadzenie
 **CNC (Computer Numerical Control)** = komputerowe sterowanie numeryczne obrabiarki. To maszyny, które wykonują obróbkę (najczęściej skrawaniem), a ruchy osi i funkcje technologiczne realizują na podstawie programu NC (alfanumerycznego).
 ## Najważniejsze zadania obrabiarek CNC:
