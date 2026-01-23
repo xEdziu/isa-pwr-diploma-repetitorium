@@ -113,7 +113,7 @@ Progowanie w przetwarzaniu obrazów przemysłowych to operacja segmentacji, pole
 
 >[!Tip]
 > **Na chłopski rozum:**<br>
-> Bierzesz histogram i stawiasz pinową kreche, to co na lewo od kreski jest białe, to co na prawo czarne.
+> Bierzesz histogram i stawiasz pinową kreche, to co na lewo od kreski jest czarne, to co na prawo białe.
 
 ### Metody progowania - wybór progu
 
