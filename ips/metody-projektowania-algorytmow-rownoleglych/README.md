@@ -1,4 +1,4 @@
-<img width="1024" height="731" alt="mapa-mysli-programowanie-rownolegle" src="https://github.com/user-attachments/assets/6568c969-ccbd-488c-85d8-9e94a065b716" />
+<img width="1024" height="731" alt="mapa-mysli-programowanie-rownolegle" src="https://github.com/user-attachments/assets/3f577763-9f07-4ea1-a7b6-4a2a822b97de" />
 
 #### Projektowanie algorytmu równoległego obejmuje:
 
