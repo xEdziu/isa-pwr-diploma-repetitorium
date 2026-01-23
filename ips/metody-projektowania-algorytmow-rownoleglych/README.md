@@ -1,3 +1,5 @@
+<img width="1024" height="731" alt="mapa-mysli-programowanie-rownolegle" src="https://github.com/user-attachments/assets/6568c969-ccbd-488c-85d8-9e94a065b716" />
+
 #### Projektowanie algorytmu równoległego obejmuje:
 
 1. wybór modelu architektury
@@ -6,6 +8,8 @@
 4. synchronizację tylko tam, gdzie konieczna
 5. ocenę jakości (speedup, efektywność)
 6. analizę granic skalowalności
+
+# Najważniejsze zagadnienia
 
 ## Architektury systemów wieloprocesorowych - od procesorów wielordzeniowych, przez GPU po klastry i superkopmputery. Model PRAM.
 
@@ -122,6 +126,7 @@ Może wystąpić, gdy:
 Nie łamie praw teorii – wynika z architektury sprzętu.
 
 ---
+# Zagadnienia ważne jeśli będą pytania o konkretne algorytmy - najważniejsze wiedzieć o macierzach i jednym jeszcze przykładzie np quicksorcie
 
 ### Równoległe algorytmy grafowe. Wyznaczanie najkrótszych/najdłuższych ścieżek w sieciach
 
@@ -181,41 +186,9 @@ Szczególnie efektywne na:
 - systemach wielordzeniowych
 
 --- 
-# Zagadnienia uzupełniające – kontekst metod projektowania algorytmów równoległych
+# Zagadnienia uzupełniające
 
-Poniższe zagadnienia nie stanowią rdzenia metod projektowania algorytmów równoległych,
-ale są istotne jako:
-- narzędzia implementacyjne,
-- środowiska wykonawcze,
-- przykłady zastosowania metod projektowych w praktyce.
-
----
-
-## 1. Języki programowania równoległego
-
-### Charakter zagadnienia
-- dotyczą **implementacji**, nie projektowania algorytmu
-- nie narzucają metody podziału problemu
-- realizują wcześniej zaprojektowany algorytm
-
-### Rola w projektowaniu algorytmów
-- algorytm powinien być **niezależny od języka**
-- projektowanie odbywa się:
-  - przed wyborem technologii
-  - na poziomie abstrakcyjnym (np. PRAM)
-
-### Znaczenie praktyczne
-- język wpływa na:
-  - wygodę implementacji
-  - dostępne mechanizmy synchronizacji
-  - koszty narzutów
-
-Wniosek:
-Języki programowania nie są metodą projektowania algorytmów, lecz środkiem ich realizacji.
-
----
-
-## 2. Programowanie w klastrze – biblioteka MPI
+## Programowanie w klastrze – biblioteka MPI
 
 ### Charakter zagadnienia
 - MPI to standard komunikacji w systemach z pamięcią rozproszoną
@@ -236,9 +209,7 @@ Języki programowania nie są metodą projektowania algorytmów, lecz środkiem 
 
 MPI nie definiuje metody algorytmicznej, ale **ujawnia konsekwencje złego projektu algorytmu**.
 
----
-
-## 3. Programowanie urządzeń GPU – CUDA
+## Programowanie urządzeń GPU – CUDA
 
 ### Charakter zagadnienia
 - CUDA to platforma programistyczna dla GPU
@@ -256,9 +227,7 @@ MPI nie definiuje metody algorytmicznej, ale **ujawnia konsekwencje złego proje
 
 CUDA nie jest metodą projektowania algorytmu, lecz **specyficznym środowiskiem wykonawczym**, które wpływa na sposób implementacji.
 
----
-
-## 4. Programowanie MIC – OpenMP
+## Programowanie MIC – OpenMP
 
 ### Charakter zagadnienia
 - OpenMP to model programowania dla pamięci współdzielonej
@@ -278,9 +247,7 @@ CUDA nie jest metodą projektowania algorytmu, lecz **specyficznym środowiskiem
 
 OpenMP realizuje algorytmy współbieżne i równoległe, ale **nie definiuje metod ich projektowania**.
 
----
-
-## 5. Wybrane algorytmy równoległe – metaheurystyki
+## Wybrane algorytmy równoległe – metaheurystyki
 
 ### Charakter zagadnienia
 - algorytmy przybliżone
@@ -300,9 +267,7 @@ OpenMP realizuje algorytmy współbieżne i równoległe, ale **nie definiuje me
 
 Metaheurystyki ilustrują użycie metod projektowania, ale same nimi nie są.
 
----
-
-## 6. Równoległy i rozproszony algorytm tabu search oraz symulowanego wyżarzania
+## Równoległy i rozproszony algorytm tabu search oraz symulowanego wyżarzania
 
 ### Charakter zagadnienia
 - algorytmy lokalnego przeszukiwania
@@ -319,9 +284,7 @@ Metaheurystyki ilustrują użycie metod projektowania, ale same nimi nie są.
 
 Algorytmy te pokazują **granice zwrównoleglania**, co jest istotne koncepcyjnie.
 
----
-
-## 7. Równoległe algorytmy genetyczne i poszukiwanie rozproszone
+## Równoległe algorytmy genetyczne i poszukiwanie rozproszone
 
 ### Charakter zagadnienia
 - algorytmy populacyjne
@@ -339,16 +302,3 @@ Algorytmy te pokazują **granice zwrównoleglania**, co jest istotne koncepcyjni
 - jednak silnie dziedzinowe
 
 Algorytmy genetyczne są **zastosowaniem metod projektowania algorytmów równoległych**, a nie ich fundamentem.
-
----
-
-## Wniosek ogólny
-
-Powyższe zagadnienia:
-- nie definiują metod projektowania algorytmów równoległych,
-- ale pokazują:
-  - konsekwencje decyzji projektowych,
-  - ograniczenia sprzętowe i programistyczne,
-  - praktyczne zastosowania teorii.
-
-Stanowią ważne uzupełnienie wiedzy, szczególnie na poziomie implementacji.
