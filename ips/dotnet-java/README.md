@@ -1,3 +1,5 @@
+<img width="1024" height="768" alt="Java" src="https://github.com/user-attachments/assets/693896b7-6e49-4ed0-8552-adcf1a916744" />
+
 # Cechy wspólne i różnice platform programistycznych .Net i Java. Obiektowość w językach Java i C#
 
 > Będzie trochę chaotycznie ale postaram się jak mogę zrobić to jak najkrócej
