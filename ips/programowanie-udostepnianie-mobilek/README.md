@@ -1,3 +1,5 @@
+<img width="1024" height="768" alt="Mobilki 2" src="https://github.com/user-attachments/assets/a07868e6-95e8-41a8-bb7b-2974264235b6" />
+
 # Języki programowania
 ## Kotlin – android
 ### Kotlin jako język programowania
