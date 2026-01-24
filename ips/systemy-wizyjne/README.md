@@ -1,3 +1,5 @@
+<img width="1024" height="768" alt="Wizyjki" src="https://github.com/user-attachments/assets/273ad1db-86ca-47ed-ba1f-331df656f3eb" />
+
 # Systemy Wizyjne
 
 **<p style="font-size:800%; text-align:center;">OBRAZ TO MACIERZ!<p/>**
