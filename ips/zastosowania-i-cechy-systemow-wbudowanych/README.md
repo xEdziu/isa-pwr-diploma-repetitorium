@@ -1,3 +1,5 @@
+<img width="1024" height="768" alt="systemy wbudowane" src="https://github.com/user-attachments/assets/71fd496e-f73a-43c0-b0ba-74d094bc5fea" />
+
 # Zastosowania i cechy systemów wbudowanych
 
 ## 1. Definicja
