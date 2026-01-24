@@ -1,3 +1,5 @@
+<img width="1024" height="768" alt="AI i ML" src="https://github.com/user-attachments/assets/bcb1d043-1ffd-487c-9570-5c2c9a147ba3" />
+
 # Zastosowanie AI i ML w Robotach Inteligentnych
 
 ## 1. Kluczowe Definicje
