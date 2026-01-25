@@ -1,3 +1,5 @@
+<img width="1024" height="768" alt="protokoły transmisji" src="https://github.com/user-attachments/assets/afd7aa9c-4907-4a0b-b59e-eb9bf5018337" />
+
 # Protokoły transmisji cyfrowej w przemyśle 4.0
 
 Protokoły komunikacyjne umożliwiają płynną wymianę danych między maszynami, czujnikami, systemami IT oraz operatorami. Bez skutecznych protokołów wymiany danych implementacja systemów IoT, predykcyjnego utrzymania ruchu czy auto-matyzacji procesów byłaby niemożliwa.
