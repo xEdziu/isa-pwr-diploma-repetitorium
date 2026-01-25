@@ -1,3 +1,5 @@
+<img width="1024" height="768" alt="algorytmy AI" src="https://github.com/user-attachments/assets/12f1deac-a6df-4f9d-aa2a-8e9eeead2bbd" />
+
 # Metody i algorytmy AI
 
 ## 1. Definicje
@@ -65,6 +67,7 @@
 * **MSE (błąd średniokwadratowy):** Średnia kwadratów błędów, bardzo surowo karze duże pomyłki.
 * **MAE (Średni błąd bezwzględny):** Średnia różnica między wynikiem a prawdą, mówi, o ile średnio myli się model.
 * **Macierz pomyłek:** tabela pokazująca co z czym pomylił model (TP, TN, FP, FN).
+
 
 
 
