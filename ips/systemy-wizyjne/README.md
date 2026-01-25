@@ -1,5 +1,7 @@
 <img width="1024" height="768" alt="Wizyjki" src="https://github.com/user-attachments/assets/273ad1db-86ca-47ed-ba1f-331df656f3eb" />
 
+Co to system wizyjny? System wizyjny to układ (współpracujących ze sobą) urządzeń (elektronicznych), którego zadaniem jest analiza wizyjna otoczenia na podobieństwo zmysłu wzroku u ludzi.
+
 # Systemy Wizyjne
 
 **<p style="font-size:800%; text-align:center;">OBRAZ TO MACIERZ!<p/>**
